@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\study\\project\\travelmanager\\project\\TravelManager\\TravelManager\\TravelManager.csproj": {}
+    "D:\\travel manager true true\\travelmanager\\program\\TravelManager\\TravelManager\\TravelManager.csproj": {}
   },
   "projects": {
-    "D:\\study\\project\\travelmanager\\project\\TravelManager\\TravelManager\\TravelManager.csproj": {
+    "D:\\travel manager true true\\travelmanager\\program\\TravelManager\\TravelManager\\TravelManager.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\study\\project\\travelmanager\\project\\TravelManager\\TravelManager\\TravelManager.csproj",
+        "projectUniqueName": "D:\\travel manager true true\\travelmanager\\program\\TravelManager\\TravelManager\\TravelManager.csproj",
         "projectName": "TravelManager",
-        "projectPath": "D:\\study\\project\\travelmanager\\project\\TravelManager\\TravelManager\\TravelManager.csproj",
+        "projectPath": "D:\\travel manager true true\\travelmanager\\program\\TravelManager\\TravelManager\\TravelManager.csproj",
         "packagesPath": "C:\\Users\\vlaad\\.nuget\\packages\\",
-        "outputPath": "D:\\study\\project\\travelmanager\\project\\TravelManager\\TravelManager\\obj\\",
+        "outputPath": "D:\\travel manager true true\\travelmanager\\program\\TravelManager\\TravelManager\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -53,6 +53,10 @@
             "Xamarin.Essentials": {
               "target": "Package",
               "version": "[1.2.0, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.6.292, )"
             }
           }
         }
