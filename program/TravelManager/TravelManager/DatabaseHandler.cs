@@ -15,14 +15,17 @@ namespace TravelManager
 {
     class DatabaseHandler 
     {
-        public string dbName { get; private set; }
-        public string dbPath { get; private set; }
-        public SQLiteConnection connection { get; private set; }
+        public string sqliteFilename;
+        public string libraryPath;
+        public string path;
+        public SQLiteConnection database;
+
         public DatabaseHandler()
         {
-            dbName = "data.sqlite";
-            dbPath = Path.Combine(System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal),dbName);
-            connection = new SQLiteConnection(dbPath);
+            sqliteFilename = "newdb.sqlite";
+            libraryPath = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
+            path = System.IO.Path.Combine(libraryPath, sqliteFilename);
+            database = new SQLiteConnection(path);
         }
     }
 }
