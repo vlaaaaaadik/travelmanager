@@ -3,6 +3,9 @@ public class MonoPackageManager_Resources {
 	public static String[] Assemblies = new String[]{
 		/* We need to ensure that "TravelManager.dll" comes first in this list. */
 		"TravelManager.dll",
+		"BouncyCastle.dll",
+		"MailKit.dll",
+		"MimeKit.dll",
 		"SQLite-net.dll",
 		"SQLitePCLRaw.batteries_green.dll",
 		"SQLitePCLRaw.batteries_v2.dll",

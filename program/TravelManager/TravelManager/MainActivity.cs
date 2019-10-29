@@ -18,6 +18,8 @@ namespace TravelManager
         {
             data = new DatabaseHandler();
             data.database.CreateTable<User>();
+            // забрати цю хрень на релізі - це штука дропає таблицю
+            data.database.Table<User>
             base.OnCreate(savedInstanceState);
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             // Set our view from the "main" layout resource
