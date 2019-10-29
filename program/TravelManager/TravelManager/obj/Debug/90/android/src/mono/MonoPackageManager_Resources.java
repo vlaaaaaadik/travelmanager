@@ -4,8 +4,13 @@ public class MonoPackageManager_Resources {
 		/* We need to ensure that "TravelManager.dll" comes first in this list. */
 		"TravelManager.dll",
 		"BouncyCastle.dll",
+		"Google.Apis.Auth.dll",
+		"Google.Apis.Auth.PlatformServices.dll",
+		"Google.Apis.Core.dll",
+		"Google.Apis.dll",
 		"MailKit.dll",
 		"MimeKit.dll",
+		"Newtonsoft.Json.dll",
 		"SQLite-net.dll",
 		"SQLitePCLRaw.batteries_green.dll",
 		"SQLitePCLRaw.batteries_v2.dll",

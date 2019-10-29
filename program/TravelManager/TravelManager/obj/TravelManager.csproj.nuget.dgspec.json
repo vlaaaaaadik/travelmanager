@@ -38,6 +38,10 @@
       "frameworks": {
         "monoandroid90": {
           "dependencies": {
+            "Google.Apis.Auth": {
+              "target": "Package",
+              "version": "[1.41.1, )"
+            },
             "MailKit": {
               "target": "Package",
               "version": "[2.3.2, )"
