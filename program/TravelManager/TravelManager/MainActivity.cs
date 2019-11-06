@@ -33,11 +33,11 @@ namespace TravelManager
             
             enter.Click += (s, e) =>
             {
-                //TODO: перенести цей код в кнопку для реєстрації коли буде форма
-                //var users = data.database.Table<User>();
-                //var table = from i in users
-                //            select i;
-                //table.First().generateToken();
+            //TODO: перенести цей код в кнопку для реєстрації коли буде форма
+                var users = data.database.Table<User>();
+                var table = from i in users
+                            select i;
+                table.First().generateToken();
             };
             signUp.Click += (s, e) =>
             {
